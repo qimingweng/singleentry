@@ -41,5 +41,16 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<!-- Permissions and changes -->
+	<!-- The following key is used for the camera in general -->
+	<key>NSCameraUsageDescription</key>
+	<string>The Camera is used to capture your documents</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allow access to save documents to your photo library as a backup</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow access to save documents to your photo library as a backup</string>
+	<!-- Flutter UiKitView -->
+	<key>io.flutter.embedded_views_preview</key>
+	<true/>
 </dict>
 </plist>
